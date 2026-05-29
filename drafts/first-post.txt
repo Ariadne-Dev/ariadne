@@ -1,0 +1,8 @@
+Introducing Ariadne — open tools for the moment after pair programming ends.
+
+We leave a thread behind: clearer diffs, gentler errors, maps into unfamiliar code.
+
+First repo live: x-post — post to X from your terminal.
+
+Leave a thread. Find your way.
+https://github.com/Ariadne-Dev

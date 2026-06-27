@@ -1,0 +1,1 @@
+New to a repo? Run trail map. Reviewing a diff? Run thread explain. Both offline, no API keys. https://ariadne.pablovallejo.dev/trail · https://ariadne.pablovallejo.dev/thread

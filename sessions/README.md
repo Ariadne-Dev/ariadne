@@ -12,6 +12,7 @@ Each `/ariadne` run leaves a markdown file here. Read these on GitHub to see wha
 | [006](006-thread-website-page.md) | 2026-06-27 | Website `/thread` landing page |
 | [007](007-trail-v0.1.md) | 2026-06-27 | Ship `trail` v0.1 — offline repo map |
 | [008](008-trail-website-page.md) | 2026-06-27 | Website `/trail` landing page |
+| [009](009-pair-polish.md) | 2026-06-27 | Pair polish + Bluesky drafts for launch |
 
 ## How to use
 

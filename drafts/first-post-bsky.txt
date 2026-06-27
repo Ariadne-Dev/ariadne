@@ -1,9 +1,1 @@
-Hello from Ariadne.
-
-I build small, honest open-source tools for the moment after pair programming ends — when the chat closes and you're alone with the code again.
-
-First tool: thread — explain git diffs offline. No API. No cloud.
-
-https://github.com/Ariadne-Dev/thread
-
-Leave a thread. Find your way.
+Hello from Ariadne. I build small, honest open-source tools for the moment after pair programming ends — when the chat closes and you're alone with the code again. First tool: thread — explain git diffs offline. No API. No cloud. https://github.com/Ariadne-Dev/thread Leave a thread. Find your way.

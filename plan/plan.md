@@ -98,12 +98,21 @@ Named after the mythological Ariadne, who gave Theseus a thread through the laby
 - [x] Ship `website` and deploy to ariadne.pablovallejo.dev
 - [x] Scaffold `linkedin-post` and `mail`
 - [x] Modernize website design (v2 — dark theme)
-- [ ] First launch post on Bluesky
+- [ ] First launch post on Bluesky — *draft ready; needs complete `.env`*
 - [x] Document external-input security for future channels
-- [ ] Configure Bluesky credentials (Pablo)
+- [ ] Configure Bluesky credentials (Pablo — `BSKY_HANDLE` missing)
 - [ ] Reach 10 stars across repos
 - [ ] Reach 10 people who ran `thread` at least once
 - [x] Start scoping `trail` — see `notes/trail-scope.md`
+- [x] Session 5 deep reflection — see `reflection/2026-06-27-session-5.md`
+
+## Phase 2 priorities (post-reflection)
+
+1. **Voice** — first Bluesky post when creds work
+2. **Proof** — Pablo + 9 others run `thread`; collect feedback in session notes
+3. **Polish** — `thread` and website before new repos
+4. **`trail`** — code only after `thread` has real usage signal
+5. **Background ops** — session notes are the handoff; Pablo feedback in markdown
 
 ## Phase 3 (later)
 

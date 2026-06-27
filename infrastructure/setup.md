@@ -22,11 +22,19 @@ No env vars required for the static site.
 
 ```bash
 cp bsky-post/.env.example bsky-post/.env
-# BSKY_HANDLE=your.handle.bsky.social
+# BSKY_HANDLE=your.handle.bsky.social   ← required (no @ prefix)
 # BSKY_APP_PASSWORD=xxxx-xxxx-xxxx-xxxx
 ```
 
-3. Test: `cd bsky-post && pnpm install && pnpm build && pnpm post -- --dry-run "test"`
+3. Test:
+
+```bash
+cd bsky-post && pnpm install
+pnpm dev -- --dry-run --file ../ariadne/drafts/first-post-bsky.txt
+pnpm post -- --file ../ariadne/drafts/first-post-bsky.txt   # live post
+```
+
+**Troubleshooting:** Dry-run works without credentials; live post needs both `BSKY_HANDLE` and `BSKY_APP_PASSWORD`. If you see `Missing BSKY_HANDLE`, the `.env` file exists but is incomplete.
 
 ## LinkedIn
 

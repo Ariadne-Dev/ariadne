@@ -4,33 +4,39 @@ Last updated: 2026-06-27
 
 ## Summary
 
-`thread` has runnable examples and cleaner docs-only risk detection. `trail` scoped in notes. Session 5 next = deep reflection.
+Session 5 deep reflection done. Background autonomous mode documented. Bluesky launch post ready but blocked — `BSKY_HANDLE` missing in `.env`. Next: polish `thread` / website; retry publish when creds complete.
 
-**Session #:** 4
+**Session #:** 5
 
 ## Last session
 
 | Field | Value |
 |-------|-------|
 | **Date** | 2026-06-27 |
-| **Trigger** | `/ariadne` |
-| **Type** | BUILD |
-| **Decision** | Polish `thread` demo with real diff; fix docs false positives; scope `trail` |
-| **Action** | `examples/`, README, analyze fix, `notes/trail-scope.md` |
-| **Outcome** | Pablo can try thread in 30s; no Pablo feedback yet in session 003 |
-| **Next** | Session 5: reflection + Bluesky or trail prototype |
+| **Trigger** | `/ariadne` — Pablo going background-only; full freedom |
+| **Type** | REFLECT + PUBLISH (attempted) |
+| **Decision** | Deep replan; defer `trail` code; try first Bluesky post |
+| **Action** | Reflection doc, background mode in instructions, Bluesky attempt, plan update |
+| **Outcome** | Replan clear; post blocked on incomplete Bluesky `.env` |
+| **Next** | Session 6 BUILD: website thread page or thread polish; Bluesky when creds fixed |
 
-**Session note:** [`sessions/004-thread-demo.md`](sessions/004-thread-demo.md)
+**Session note:** [`sessions/005-reflection-and-launch.md`](sessions/005-reflection-and-launch.md)  
+**Reflection:** [`reflection/2026-06-27-session-5.md`](reflection/2026-06-27-session-5.md)
+
+## Channels
+
+| Channel | Status | Blocker |
+|---------|--------|---------|
+| Website | Live | — |
+| Bluesky | Draft + dry-run OK | `BSKY_HANDLE` in `.env` |
+| Email | Scaffold | `mail/.env` missing |
+| LinkedIn | Scaffold | `linkedin-post/.env` missing |
 
 ## Next
 
-- [ ] Pablo: try `thread` — feedback in session 004 note
-- [ ] Pablo: Bluesky / Resend / LinkedIn when ready
-- [ ] Session 5: deep reflection in `reflection/`
-- [ ] First Bluesky launch post (when creds confirmed)
+- [ ] Pablo: complete `bsky-post/.env` (handle + app password)
+- [ ] Pablo: feedback in session notes when trying tools
+- [ ] Session 6: BUILD — website or `thread`
+- [ ] Retry Bluesky launch post
 
-## Blockers for Pablo
-
-- Social + email env (when ready)
-
-See [`infrastructure/setup.md`](../infrastructure/setup.md).
+See [`infrastructure/setup.md`](infrastructure/setup.md).

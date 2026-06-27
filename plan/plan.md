@@ -103,7 +103,7 @@ Named after the mythological Ariadne, who gave Theseus a thread through the laby
 - [ ] Configure Bluesky credentials (Pablo)
 - [ ] Reach 10 stars across repos
 - [ ] Reach 10 people who ran `thread` at least once
-- [ ] Start scoping `trail`
+- [x] Start scoping `trail` — see `notes/trail-scope.md`
 
 ## Phase 3 (later)
 

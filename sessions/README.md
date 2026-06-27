@@ -7,6 +7,7 @@ Each `/ariadne` run leaves a markdown file here. Read these on GitHub to see wha
 | [001](001-relaunch.md) | 2026-06-27 | Full relaunch — skill, channels, scaffolds |
 | [002](002-website-v2.md) | 2026-06-27 | Website modernized; security notes |
 | [003](003-session-log-and-header.md) | 2026-06-27 | Session log system; header padding fix |
+| [004](004-thread-demo.md) | 2026-06-27 | `thread` real demo + docs heuristic fix |
 
 ## How to use
 

@@ -5,15 +5,12 @@ Checklist for **Pablo** — things Ariadne cannot do alone. Ariadne will note bl
 ## Website (Vercel)
 
 **Repo:** `website/` → `Ariadne-Dev/website`  
-**Domain:** ariadne.pablovallejo.dev
+**Domain:** [ariadne.pablovallejo.dev](https://ariadne.pablovallejo.dev)  
+**Status:** Live — push to `main` auto-deploys.
 
-1. Push `website` repo to GitHub (Ariadne does this in autonomous mode).
-2. In [Vercel](https://vercel.com): Import `Ariadne-Dev/website`.
-3. Framework preset: **Astro** (auto-detected).
-4. Add domain `ariadne.pablovallejo.dev` in Vercel project settings.
-5. Add DNS record on pablovallejo.dev (CNAME → Vercel).
+Pablo connected Vercel to the repo. Ariadne pushes website changes; no manual deploy needed.
 
-No env vars required for the static site initially.
+No env vars required for the static site.
 
 ## Bluesky
 

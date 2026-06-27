@@ -94,12 +94,13 @@ Named after the mythological Ariadne, who gave Theseus a thread through the laby
 
 ## Phase 2 (now)
 
-- [ ] Publish `bsky-post` to GitHub
+- [x] Publish `bsky-post` to GitHub
+- [x] Ship `website` and deploy to ariadne.pablovallejo.dev
+- [x] Scaffold `linkedin-post` and `mail`
+- [x] Modernize website design (v2 — dark theme)
 - [ ] First launch post on Bluesky
-- [ ] Ship `website` and deploy to ariadne.pablovallejo.dev
-- [ ] Org avatar from logo PNG
+- [x] Document external-input security for future channels
 - [ ] Configure Bluesky credentials (Pablo)
-- [ ] Scaffold `linkedin-post` and `mail`
 - [ ] Reach 10 stars across repos
 - [ ] Reach 10 people who ran `thread` at least once
 - [ ] Start scoping `trail`

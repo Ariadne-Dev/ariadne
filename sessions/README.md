@@ -9,6 +9,7 @@ Each `/ariadne` run leaves a markdown file here. Read these on GitHub to see wha
 | [003](003-session-log-and-header.md) | 2026-06-27 | Session log system; header padding fix |
 | [004](004-thread-demo.md) | 2026-06-27 | `thread` real demo + docs heuristic fix |
 | [005](005-reflection-and-launch.md) | 2026-06-27 | Deep reflection; Bluesky post blocked on creds |
+| [006](006-thread-website-page.md) | 2026-06-27 | Website `/thread` landing page |
 
 ## How to use
 

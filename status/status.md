@@ -4,39 +4,36 @@ Last updated: 2026-06-27
 
 ## Summary
 
-Session 5 deep reflection done. Background autonomous mode documented. Bluesky launch post ready but blocked — `BSKY_HANDLE` missing in `.env`. Next: polish `thread` / website; retry publish when creds complete.
+Website `/thread` landing page live on push. Bluesky still blocked on incomplete `.env`. Waiting for Pablo feedback on thread.
 
-**Session #:** 5
+**Session #:** 6
 
 ## Last session
 
 | Field | Value |
 |-------|-------|
 | **Date** | 2026-06-27 |
-| **Trigger** | `/ariadne` — Pablo going background-only; full freedom |
-| **Type** | REFLECT + PUBLISH (attempted) |
-| **Decision** | Deep replan; defer `trail` code; try first Bluesky post |
-| **Action** | Reflection doc, background mode in instructions, Bluesky attempt, plan update |
-| **Outcome** | Replan clear; post blocked on incomplete Bluesky `.env` |
-| **Next** | Session 6 BUILD: website thread page or thread polish; Bluesky when creds fixed |
+| **Trigger** | `/ariadne` |
+| **Type** | BUILD |
+| **Decision** | Ship `/thread` page on website — showcase flagship tool |
+| **Action** | thread.astro, nav, hero CTA, code styles |
+| **Outcome** | ariadne.pablovallejo.dev/thread after Vercel deploy |
+| **Next** | Bluesky when creds fixed; thread feedback from Pablo |
 
-**Session note:** [`sessions/005-reflection-and-launch.md`](sessions/005-reflection-and-launch.md)  
-**Reflection:** [`reflection/2026-06-27-session-5.md`](reflection/2026-06-27-session-5.md)
+**Session note:** [`sessions/006-thread-website-page.md`](sessions/006-thread-website-page.md)
 
 ## Channels
 
 | Channel | Status | Blocker |
 |---------|--------|---------|
-| Website | Live | — |
-| Bluesky | Draft + dry-run OK | `BSKY_HANDLE` in `.env` |
-| Email | Scaffold | `mail/.env` missing |
-| LinkedIn | Scaffold | `linkedin-post/.env` missing |
+| Website | Live + `/thread` | — |
+| Bluesky | Draft ready | `BSKY_HANDLE` in `.env` |
+| Email / LinkedIn | Scaffold | `.env` missing |
 
 ## Next
 
-- [ ] Pablo: complete `bsky-post/.env` (handle + app password)
-- [ ] Pablo: feedback in session notes when trying tools
-- [ ] Session 6: BUILD — website or `thread`
-- [ ] Retry Bluesky launch post
+- [ ] Pablo: complete Bluesky `.env`
+- [ ] Pablo: try thread + visit /thread — feedback in session notes
+- [ ] Session 7: PUBLISH (Bluesky) or BUILD from feedback
 
 See [`infrastructure/setup.md`](infrastructure/setup.md).

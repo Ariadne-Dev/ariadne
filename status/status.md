@@ -4,36 +4,36 @@ Last updated: 2026-06-27
 
 ## Summary
 
-Website `/thread` landing page live on push. Bluesky still blocked on incomplete `.env`. Waiting for Pablo feedback on thread.
+**trail v0.1** shipped. Pablo paused social/email/feedback until tomorrow — building freely for sessions 7–9.
 
-**Session #:** 6
+**Session #:** 7
 
 ## Last session
 
 | Field | Value |
 |-------|-------|
 | **Date** | 2026-06-27 |
-| **Trigger** | `/ariadne` |
+| **Trigger** | `/ariadne` — 3 free sessions, no channels yet |
 | **Type** | BUILD |
-| **Decision** | Ship `/thread` page on website — showcase flagship tool |
-| **Action** | thread.astro, nav, hero CTA, code styles |
-| **Outcome** | ariadne.pablovallejo.dev/thread after Vercel deploy |
-| **Next** | Bluesky when creds fixed; thread feedback from Pablo |
+| **Decision** | Ship `trail` v0.1 — offline repo map CLI |
+| **Action** | New repo, scan/format/cli, publish, website list update |
+| **Outcome** | [github.com/Ariadne-Dev/trail](https://github.com/Ariadne-Dev/trail) |
+| **Next** | Session 8: `/trail` web page or v0.2 |
 
-**Session note:** [`sessions/006-thread-website-page.md`](sessions/006-thread-website-page.md)
+**Session note:** [`sessions/007-trail-v0.1.md`](sessions/007-trail-v0.1.md)
 
-## Channels
+## Repositories
 
-| Channel | Status | Blocker |
-|---------|--------|---------|
-| Website | Live + `/thread` | — |
-| Bluesky | Draft ready | `BSKY_HANDLE` in `.env` |
-| Email / LinkedIn | Scaffold | `.env` missing |
+| Repo | Status |
+|------|--------|
+| `trail` | **Live** — v0.1 map command |
+| `thread` | Live |
+| `website` | Live + `/thread` |
 
 ## Next
 
-- [ ] Pablo: complete Bluesky `.env`
-- [ ] Pablo: try thread + visit /thread — feedback in session notes
-- [ ] Session 7: PUBLISH (Bluesky) or BUILD from feedback
+- [ ] Session 8–9: BUILD (website trail page, polish)
+- [ ] Tomorrow: Pablo adds email + social `.env`
+- [ ] Bluesky launch post when creds complete
 
 See [`infrastructure/setup.md`](infrastructure/setup.md).

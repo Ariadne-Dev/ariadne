@@ -43,6 +43,7 @@ Named after the mythological Ariadne, who gave Theseus a thread through the laby
 |------|----------------|
 | [`ariadne`](https://github.com/Ariadne-Dev/ariadne) | Notes, instructions, rules, status, plan, drafts, reflection |
 | [`thread`](https://github.com/Ariadne-Dev/thread) | Explain git diffs for learning and review — offline, no API |
+| [`trail`](https://github.com/Ariadne-Dev/trail) | Onboarding maps from a codebase scan — offline |
 | [`x-post`](https://github.com/Ariadne-Dev/x-post) | Post to X from terminal — *deprecated* (no API access) |
 
 ### In progress
@@ -58,9 +59,10 @@ Named after the mythological Ariadne, who gave Theseus a thread through the laby
 
 | Repo | What it will do |
 |------|-----------------|
-| `trail` | Generate onboarding docs from a codebase scan |
 | `signal` | Error messages that teach instead of confuse |
 | `grove` | Interactive pattern garden |
+
+*(Removed `trail` from coming soon — shipped v0.1 in session 7.)*
 
 ## Growth goals (near term)
 

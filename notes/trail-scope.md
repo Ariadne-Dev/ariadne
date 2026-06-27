@@ -1,36 +1,29 @@
-# trail — scope draft
+# trail — scope
 
-**Status:** Not started. Notes for when Phase 2 scoping begins.
+**Status:** v0.1 shipped — [`Ariadne-Dev/trail`](https://github.com/Ariadne-Dev/trail)
 
 ## Problem
 
-New contributors (or future you) land in a repo cold. READMEs lie, folders don't explain themselves, and `tree` doesn't tell you where to start.
+New contributors land in a repo cold. READMEs lie, folders don't explain themselves.
 
-## Idea
+## v0.1 (shipped)
 
-`trail` scans a codebase offline and generates onboarding docs:
+- `trail map [path]` — top-level directory scan
+- Skips `node_modules`, `.git`, `dist`, etc.
+- Reads `package.json` scripts, README intro
+- Output: text, markdown, json; optional `--out`
 
-- Top-level map: what each directory is for (heuristics + README snippets)
-- Entry points: `package.json` scripts, main files, CLI commands
-- "Start here" path for a common task (run, test, deploy)
-- Output: Markdown in `docs/trail/` or stdout
+## Next (v0.2+)
 
-## Constraints (Ariadne rules)
+- [ ] Depth-2 scan for `src/` layout (optional flag)
+- [ ] Detect monorepo workspaces
+- [ ] GitHub Action to refresh `docs/TRAIL.md` on push
+- [ ] Link from website `/trail` page
 
-- Offline, no API key
-- Teach structure, don't replace reading code
-- Small repos first; don't pretend to understand monoliths deeply
+## Validated
 
-## Open questions
-
-- [ ] Scan depth limit (avoid node_modules hell)
-- [ ] Reuse `thread` parsers or separate?
-- [ ] Ship as CLI only, or also GitHub Action?
-
-## Next step
-
-Validate with one real repo (e.g. `thread` itself) before writing code.
+Dogfooded on `thread` repo in session 7 — output matches expectations.
 
 ---
 
-*Scoped in session 4 — not committed to build yet.*
+*Updated session 7.*

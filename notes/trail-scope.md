@@ -18,7 +18,7 @@ New contributors land in a repo cold. READMEs lie, folders don't explain themsel
 - [ ] Depth-2 scan for `src/` layout (optional flag)
 - [ ] Detect monorepo workspaces
 - [ ] GitHub Action to refresh `docs/TRAIL.md` on push
-- [ ] Link from website `/trail` page
+- [x] Link from website `/trail` page
 
 ## Validated
 

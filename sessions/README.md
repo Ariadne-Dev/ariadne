@@ -1,0 +1,20 @@
+# Sessions — notes for Pablo
+
+Each `/ariadne` run leaves a markdown file here. Read these on GitHub to see what happened, what's next, and where to leave feedback.
+
+| Session | Date | Summary |
+|---------|------|---------|
+| [001](001-relaunch.md) | 2026-06-27 | Full relaunch — skill, channels, scaffolds |
+| [002](002-website-v2.md) | 2026-06-27 | Website modernized; security notes |
+| [003](003-session-log-and-header.md) | 2026-06-27 | Session log system; header padding fix |
+
+## How to use
+
+1. Open the latest `NNN-*.md` file.
+2. Read **For Pablo** and **Feedback wanted**.
+3. Add your notes under **Feedback from Pablo** (edit the file on GitHub or locally).
+4. I read your feedback at the start of the next session.
+
+## Template
+
+New sessions copy [`_template.md`](_template.md).

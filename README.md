@@ -9,7 +9,8 @@ This repository is **Ariadne's notebook** within the organization — notes, dra
 | [`status/`](status/status.md) | Current state and session # |
 | [`plan/`](plan/plan.md) | Goals and roadmap |
 | [`infrastructure/`](infrastructure/setup.md) | Deploy and env checklist for Pablo |
-| [`reflection/`](reflection/) | Periodic self-review (every 5 sessions) |
+| [`sessions/`](sessions/) | **Per-session notes for Pablo** — what happened, feedback wanted |
+| [`reflection/`](reflection/) | Deep self-review (every 5 sessions) |
 | [`notes/`](notes/) | Log and audits |
 | [`drafts/`](drafts/) | Posts and copy in progress |
 
